@@ -17,7 +17,7 @@ class _ApplicationState extends State<Application> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(fontFamily: 'dana'),
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       home: HomeScreen(),
     );
   }
